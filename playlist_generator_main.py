@@ -5,6 +5,12 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import lxml
 
+# --------------------------------- Read Me------------------------------------------------#
+# You will need to use your spotify account to use the API
+# Please see API documentation with Spotify
+# Author: Terry Smith
+# --------------------------------- Read Me------------------------------------------------#
+
 USER = os.getenv('SPOTIFY_CLIENT_ID')
 PASSWORD = os.environ.get('SPOTIFY_CLIENT_SECRET')
 
